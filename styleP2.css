@@ -1,0 +1,128 @@
+body {
+    background: linear-gradient(180deg, #001233 0%, #002855 21.84%, #0353A4 41.63%, #0353A4 83.82%, #C8B6FF 100%);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 120px;
+    background: linear-gradient(180deg, #0353A4 0%, #002855 100%);
+    color: white;
+}
+
+.copyRight {
+    text-align: center;
+    margin: 48px;
+}
+
+.headerIcon {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 30px 0 30px;
+}
+
+.DalleMid_Image {
+    justify-content: space-between;
+    display: flex;
+    padding: 0 30px 0 30px;
+    margin: 0 ;
+}
+
+.DalleMid_Button {
+    justify-content: space-between;
+    display: flex;
+    padding: 0 30px 0 30px;
+}
+
+.DalleButton {
+    margin-top: 30px;
+    background-color: #C8B6FF; /* Green */
+    border: none;
+    color: white;
+    border-radius: 5px;
+    height: 42px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.MidButton {
+    margin-top: 30px;
+    background-color: #0353A4; /* Green */
+    border: none;
+    color: white;
+    border-radius: 5px;
+    height: 42px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 69px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.MachineLearningText {
+    margin: 0 30px 36px 30px;
+}
+
+.DalleMid_Text {
+    margin: 84px 30px 36px 30px;
+}
+
+.Exemples {
+    text-align: center;
+    margin: 0 30px 0 30px;
+}
+
+.HommeImage {
+    margin-bottom: 76px;
+    margin-top: 61px;
+    border-radius: 5px;
+}
+
+.ChienImage {
+    margin-top: 49px;
+    border-radius: 5px;
+}
+
+.DalleMid_Text2 {
+    margin: 0 30px 0 30px;
+}
+
+.Separateur1 {
+    margin: 57px 0 35px 0;
+    border: none;
+    height: .9px;
+    background-color: #C4C4C4;
+}
+
+.Separateur2 {
+    margin: 59px 0 23px 0;
+    border: none;
+    height: 1px;
+    background-color: #C4C4C4;
+}
+
+.Separateur3 {
+    margin: 28px 0 61px 0;
+    border: none;
+    height: 1px;
+    background-color: #C4C4C4;
+}

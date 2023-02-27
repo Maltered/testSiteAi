@@ -8,22 +8,37 @@
     <title>IA - Accueil</title>
     <meta name="author" content="Sohan Anampalli">
     <link rel="icon" href="Images/Icons/SiteIcon.png"/>
-    <link rel="stylesheet" href="css/stylePage1.css">
-    <link rel="stylesheet" href="css/font.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="menuscipt.js"></script>
 </head>
 <body>
+<input type="checkbox" id="nav_trigger" name="">
+<nav class="main_nav">
+    <label id="close"  for="nav_trigger" class="nav_close_icon">+</label>
+    <ul>
+        <li><a href="index.html"><img src="Images/Icons/homeIcon.png" height="40" width="40"/> <span>Intelligence artificielle</span></a> </li>
+        <li><a href="indexP2.html"><img src="Images/Icons/StatistiqueIcon.png" height="40" width="40"/> <span>Machine Learning</span></a> </li>
+        <li><a href="indexP3.html"><img src="Images/Icons/CercleIcon.png" height="40" width="40"/> <span>Statistiques</span></a> </li>
+        <li><a href="indexP4.html"><img src="Images/Icons/RoueDenteeIcon.png" height="40" width="40"/> <span>Faire sa propre ia</span></a> </li>
+        <li><a href="indexP5.html"><img src="Images/Icons/GlobeIcon.png" height="40" width="40"/> <span>Reportage</span></a> </li>
+    </ul>
+    <p class="copyright">© 2022  Sohan Anampalli</p>
+</nav>
 <div class="haut">
 <header>
+
     <nav class="headerIcon">
-        <img src="Images/Icons/SiteIcon.png" width="35px" height="35px" <a href="index.html">
+        <img src="Images/Icons/SiteIcon.png" width="35px" height="35px">
         <img src="Images/Icons/homeIcon.png" width="35px" height="35px">
-        <a href="indexP2.html">
-        <img src="Images/Icons/MenuButton.png" width="36px" height="20px">
-        </a>
+            <label id="open" onclick="myFunction()" for="nav_trigger" class="nav_icon" >
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
     </nav>
 
-    <h1>Intlligence<br>artificielle</h1>
+    <h1>Intelligence<br>artificielle</h1>
+
 
     <p class="iaText">
         L’intelligence artificielle
@@ -38,7 +53,12 @@
 <hr>
 
 <main>
-    <h2>Définition</h2>
+    <script>
+        menuFunction()
+    </script>
+
+    <h2>Définition <img src="Images/Icons/LivreIcon.png" width="25px" height="25px"></h2>
+
     <p>
         L’intelligence artificielle, autrement appelé IA, est une machine /
         programme capable de simuler l’intelligence humaine en mettant en œuvre
@@ -57,7 +77,8 @@
 
     <h2>Fonctionnement <img src="Images/Icons/RoueDenteeIcon.png" width="25px" height="25px"></h2>
 
-    <p>Les intelligences artificielles fonctionnent toutes plus ou moins de la même façon.
+    <p>
+        Les intelligences artificielles fonctionnent toutes plus ou moins de la même façon.
         Elles se nourrissent de grands volumes de données, lui permettent ensuite d’extraire
         de ces données certaines caractéristiques et de les traiter pour en obtenir un résultat
     </p>
@@ -78,6 +99,7 @@
         <img src="Images/TeslaLogo.png" width="55px" height="71px">
         <img src="Images/AppleLogo.png" width="48px" height="57px">
     </nav>
+
     <img class="amazonLogo" src="Images/AmazonLogo.png" width="100px" height="36px">
 
     <div class="fondCouleur"></div>
